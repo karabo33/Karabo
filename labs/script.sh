@@ -24,13 +24,13 @@ then
     echo "----------------------------"
     sleep 1
     echo "Changing Ownership"
-    chown karabo:root /var/www/html/labs
+    chown karabo&zofo:root /var/www/html/labs
     echo "----------------------------"
     echo "OWNERSHIP SUCCESSFULLY CHANGED"
     echo "----------------------------"
     sleep 1
     echo "creating a symbolic link"
-    ln -s /var/www/html/labs /home/karabo/html
+    ln -s /var/www/html/labs /home/karabo&zofo/html
     echo "-----------------------------"
     echo "SYMBOLIC LINK SUCCESSFULLY CREATED"
     echo "-----------------------------"
